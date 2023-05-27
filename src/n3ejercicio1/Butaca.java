@@ -28,15 +28,14 @@ public class Butaca {
 	}
 	
 	//Equals: retornarà que dues butaques són iguales si la fila i el seient són iguals.
-	public boolean sonIguales(Butaca miButaca) {
-		
+	public boolean sonIguales(Butaca miButaca) {	
 		return (numeroFila == miButaca.getNumeroFila() && numeroAsiento == miButaca.getNumeroAsiento()); 
 				
 	}
 
 	@Override
 	public String toString() {
-		return "Fila: " + numeroFila + ", Asiento: " + numeroAsiento + ", Persona:"
+		return "Fila: " + numeroFila + ", Asiento: " + numeroAsiento + ", Persona: "
 				+ nombrePersona + "\n";
 	}
 	
